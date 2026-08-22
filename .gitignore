@@ -20,22 +20,19 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
 
 # Testing
 .pytest_cache/
 .coverage
 htmlcov/
-.coverage.*
-
-# Environment
-.env
-.env.local
-.env.*
-.venv/
-venv/
-env/
-ENV/
+coverage/
 
 # IDE
 .vscode/
@@ -51,6 +48,14 @@ Thumbs.db
 # Logs
 *.log
 
-# Distribution / packaging
-pocket-llm.zip
+# Environment variables
+.env
+*.env
+.env.local
+
+# Build artifacts
+target/
+.gradle/
+.mypy_cache/
+node_modules/
 ```
