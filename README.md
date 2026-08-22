@@ -1,11 +1,10 @@
-# -Pocket-LLM-
-# 🪸 Pocket-LLM: Hyperbolic Coral Compiler for Edge AI
+# Pocket-LLM: Hyperbolic Coral Compiler for Edge AI
 
 **Pocket-LLM is an open-source AI compilation framework designed to compress heavy Large Language Models (LLMs) into pocket-sized devices using Non-Euclidean Coral Mathematics. It serves as the native software-compilation layer for the Open Cognitive Core Project (OCCP) to break the silicon memory wall.**
 
 ---
 
-## 📋 The Core Problem & Our Breakthrough
+## The Core Problem & Our Breakthrough
 
 Modern Artificial Intelligence is facing an acute energy and memory crisis. Traditional LLMs operate entirely within **Euclidean Space (Flat Geometry)**. However, human language is not flat; it is deeply hierarchical and branching. Forcing a complex language tree into flat rows and columns causes massive geometric distortion. To fix this distortion, software engineers are forced to expand models into hundreds of dimensions, creating massive files (gigabytes) that drain device batteries and require expensive high-end GPUs.
 
@@ -13,7 +12,7 @@ Modern Artificial Intelligence is facing an acute energy and memory crisis. Trad
 
 ---
 
-## 🔗 Technical Integration with Open Cognitive Core (OCCP)
+## Technical Integration with Open Cognitive Core (OCCP)
 
 While developed as a separate software repository to maintain clean modularity, Pocket-LLM shares identical data fields and boundary alignments to translate heavy software models into low-level silicon reality. 
 
@@ -26,15 +25,15 @@ Because the parameter footprint drops dramatically, the OCCP chip can load the e
 
 ---
 
-## 🛠️ Key Technical Features & Capabilities
+## Key Technical Features & Capabilities
 
 * **Hyperbolic Poincaré Projection:** An advanced mathematical pipeline that takes high-dimensional token embeddings and mirrors them into a curved coordinates system without losing textual context.
 * **Field-Matched Exporter:** A specialized utility that structures output binary arrays to match open-hardware silicon register layouts, ensuring true plug-and-play hardware execution.
-* **Hyperbolic Primitives Runtime:** A lightweight execution module that replaces power-hungry linear dot-product calculations with native non-Euclidean distance formulas ($\sinh, \cosh, \tanh$) for near-zero hardware power consumption.
+* **Hyperbolic Primitives Runtime:** A lightweight execution module that replaces power-hungry linear dot-product calculations with native non-Euclidean distance formulas (sinh, cosh, tanh) for near-zero hardware power consumption.
 
 ---
 
-## 📊 Paradigm Shift: Traditional AI vs. Pocket-LLM
+## Paradigm Shift: Traditional AI vs. Pocket-LLM
 
 * **Geometry Paradigm:** Traditional AI is locked in a Flat Euclidean Grid, whereas Pocket-LLM utilizes a Curved Hyperbolic Coral Shape.
 * **Dimensional Demands:** Traditional frameworks require 200 to 400 dimensions per word token, while Pocket-LLM requires only 5 to 10 dimensions.
@@ -43,7 +42,7 @@ Because the parameter footprint drops dramatically, the OCCP chip can load the e
 
 ---
 
-## 🗺️ Unified Development Roadmap
+## Unified Development Roadmap
 
 * **Phase 1 (Foundations):** Finalize the core Python mathematical scripts to project linear vector arrays into hyperbolic tensors.
 * **Phase 2 (The Compiler Engine):** Build the automated conversion utility to ingest open-source HuggingFace models and squeeze their parameters.
@@ -52,7 +51,7 @@ Because the parameter footprint drops dramatically, the OCCP chip can load the e
 
 ---
 
-## 📜 Legal License & Freedom
+## Legal License & Freedom
 
 This project is licensed under the **CERN Open Hardware Licence v2 — Weakly Reciprocal (CERN-OHL-W)**. It is legally mandated that any extension, distribution, or commercial manufacturing of this architecture remains fully open, free, and accessible to everyone, permanently protecting digital freedom from monopolization.
 
