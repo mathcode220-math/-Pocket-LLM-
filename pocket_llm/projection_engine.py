@@ -51,9 +51,10 @@ class HyperbolicCoralCompiler:
         # Step 4: Ensure all weights stay within Poincaré Disk coral boundary (< 1)
         compressed_norms = np.linalg.norm(compressed_matrix, axis=1, keepdims=True)
         max_norm = 1 - 1e-5
+        safe_norms = np.where(compressed_norms == 0, 1.0, compressed_norms)
         compressed_matrix = np.where(
             compressed_norms >= 1,
-            compressed_matrix * (max_norm / compressed_norms),
+            compressed_matrix * (max_norm / safe_norms),
             compressed_matrix
         )
 
