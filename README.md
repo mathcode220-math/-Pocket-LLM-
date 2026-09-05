@@ -45,7 +45,7 @@ Because the parameter footprint drops dramatically, the OCCP chip can load the e
 ## Unified Development Roadmap
 
 * **Phase 1 (Foundations):** Finalize the core Python mathematical scripts to project linear vector arrays into hyperbolic tensors.
-* **Phase 2 (The Compiler Engine):** Build the automated conversion utility to ingest open-source HuggingFace models and squeeze their parameters.
+- **Phase 2 (The Compiler Engine):** Build the automated conversion utility to ingest open-source HuggingFace models and standard ONNX files, squeeze their parameters, and export hardware-aligned binaries for the [OCCP Co-Processor](https://github.com/mathcode220-math/open-cognitive-core). See [`compiler/README.md`](compiler/README.md) for detailed usage.
 * **Phase 3 (Hardware Alignment):** Standardize binary tensor export layouts to align perfectly with the SRAM registers of the OCCP co-processor.
 * **Phase 4 (Mobile Deployment):** Deliver a lightweight C++/Rust execution runtime optimized for mobile operating systems (Android/iOS).
 
